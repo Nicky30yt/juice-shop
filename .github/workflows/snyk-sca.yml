@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 18
 
-      - run: npm ci
+      - run: npm install
 
       - name: Snyk SCA Scan
         uses: snyk/actions/node@master
